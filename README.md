@@ -36,7 +36,7 @@ backend/
 ```
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/backend-express.git
+git clone https://github.com/JoseCM98/patrones-apis-backend.git
 ```
 ### 2️⃣ Instalar dependencias
 ```bash
