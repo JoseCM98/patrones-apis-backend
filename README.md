@@ -12,12 +12,12 @@ Puede servir como base para proyectos de microservicios, integraciones con bases
 - **Express.js** – Framework para crear aplicaciones web y APIs  
 - **MongoDB / Mongoose** *(opcional)* – Base de datos NoSQL  
 - **Cors & Morgan** – Middleware para seguridad y logs  
-- **Dotenv** – Manejo de variables de entorno  
 - **Nodemon** – Reinicio automático durante el desarrollo  
 
 ---
 
 ## 📁 Estructura del Proyecto
+```bash
 backend/
 ├── controllers/ # Controladores de la lógica de negocio
 │ └── empleados.controller.js
@@ -33,24 +33,25 @@ backend/
 ├── index.js # Punto de entrada del servidor
 ├── package.json
 └── package-lock.json
-
+```
 ### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/tuusuario/backend-express.git
-cd backend
-
+```
 ### 2️⃣ Instalar dependencias
+```bash
 npm install
-
+```
 ### 3️⃣ Iniciar el servidor
 
 Modo desarrollo (con Nodemon):
+```bash
 npm run dev
-
+```
 🔗 Endpoints Principales
 Método	Endpoint	Descripción
-GET	/api/empleados	Obtiene todos los empleados
-GET	/api/empleados/:id	Obtiene un empleado por ID
-POST	/api/empleados	Crea un nuevo empleado
-PUT	/api/empleados/:id	Actualiza un empleado
-DELETE	/api/empleados/:id	Elimina un empleado
+- GET	/api/empleados	Obtiene todos los empleados
+- GET	/api/empleados/:id	Obtiene un empleado por ID
+- POST	/api/empleados	Crea un nuevo empleado
+- PUT	/api/empleados/:id	Actualiza un empleado
+- DELETE	/api/empleados/:id	Elimina un empleado
