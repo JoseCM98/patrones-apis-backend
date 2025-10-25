@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon backend/index.js",
     "test": "jest --runInBand",
-    "start": "node backend/index.js"
+    "start": "node ./index.js"
   },
   "keywords": [],
   "author": "",
